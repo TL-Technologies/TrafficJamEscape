@@ -169,9 +169,6 @@ public class GameManager : MonoBehaviour
 
     public void LevelFinished()
     {
-        // show ads on level finished
-        Ads.Instance.ShowInterstitial();
-
         Debug.Log("Level Finished !");
 
         UpdateCoins(PlayerPrefs.GetInt("playercoins"));

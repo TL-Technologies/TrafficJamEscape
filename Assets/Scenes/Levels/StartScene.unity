@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: ed8646e73f1a76a4f9c54eac07990c3d, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414738, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &7966982 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8053604518015309015, guid: 25523b4c28cd40545a0ca5b7e9a7bf8d, type: 3}
-  m_PrefabInstance: {fileID: 1873254578}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d033b1fe2acba05478ec260e3ad5b4b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &731793635
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +223,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 334377653009849790, guid: 25523b4c28cd40545a0ca5b7e9a7bf8d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 689250089374482059, guid: 25523b4c28cd40545a0ca5b7e9a7bf8d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 623.38306
@@ -274,6 +267,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1412900388622893651, guid: 25523b4c28cd40545a0ca5b7e9a7bf8d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027969764709439510, guid: 25523b4c28cd40545a0ca5b7e9a7bf8d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5049919352344161344, guid: 25523b4c28cd40545a0ca5b7e9a7bf8d, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -285,7 +286,7 @@ PrefabInstance:
     - target: {fileID: 6221173901018185632, guid: 25523b4c28cd40545a0ca5b7e9a7bf8d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 7966982}
+      objectReference: {fileID: 0}
     - target: {fileID: 6221173901018185632, guid: 25523b4c28cd40545a0ca5b7e9a7bf8d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: JoinDiscordClicked
@@ -302,8 +303,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: MANAGERS_AND_UI
       objectReference: {fileID: 0}
+    - target: {fileID: 7259104270289419828, guid: 25523b4c28cd40545a0ca5b7e9a7bf8d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4027969764709439510, guid: 25523b4c28cd40545a0ca5b7e9a7bf8d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25523b4c28cd40545a0ca5b7e9a7bf8d, type: 3}
