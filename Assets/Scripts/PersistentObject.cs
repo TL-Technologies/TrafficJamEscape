@@ -8,5 +8,11 @@ public class PersistentObject : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    [ContextMenu("ds")]
+    public void OnClick()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+
     // Add any other scripts or functionality you want for the persistent object
 }
